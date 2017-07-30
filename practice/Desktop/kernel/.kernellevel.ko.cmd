@@ -1,0 +1,1 @@
+cmd_/root/Desktop/kernel/kernellevel.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /root/Desktop/kernel/kernellevel.ko /root/Desktop/kernel/kernellevel.o /root/Desktop/kernel/kernellevel.mod.o
